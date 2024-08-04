@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html{
+    height:100%;
+}
+
+
+.text{
+    font-family: 'Kanit', sans-serif;
+    margin:auto;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    color:white;
+    white-space: nowrap;
+}
+
+
+#header-footer {
+    position:sticky;
+    position:-webkit-sticky;
+    width:1px;
+    height:70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#container{
+    max-width:100%;
+    overflow:scroll;
+}
+
+
+#map{
+    top:0%;
+}
+
+
+#variant{
+    top:25px;
+}
+
+
+#return{
+    top:0%;
+    background-color: white;
+    color:black;
+    text-decoration-line: none;
+    z-index: 3;
+}
+
+
+#return:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.place{
+    position:absolute;
+    z-index:3;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.place a {
+    text-decoration-line: none;
+    color:darkgreen;
+}
+
+
+.place a:hover{
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    color:green;
+}
+
+/* EARTH */
+#earth_bg{
+    background:linear-gradient(90deg,#1a1536,rgb(40, 9, 90), rgb(18, 29, 87),#1a1536);
+}
+
+
+#earth_div{
+    position:relative;
+    margin:auto auto 5px auto;
+    height:675px;
+    width:1350px;
+}
+
+
+#earth_image{
+    position: relative;
+    height:675px;
+    width:1350px;
+    /* opacity:0.1; */
+}
+
+
+#united_states{
+    left:250px;
+    top:130px;
+}
+
+
+#canada{
+    left:290px;
+    top:80px;
+}
+
+
+#mexico{
+    left: 245px;
+    top: 190px;
+}
+
+
+#germany{
+    right:645px;
+    top:80px;
+}
+
+
+#france{
+    left:630px;
+    top:95px;
+}
+
+
+#united_kingdom{
+    left:570px;
+    top:65px;
+}
+
+
+#spain{
+    left:610px;
+    top:120px;
+}
+
+
+#portugal{
+    left:580px;
+    top:130px;
+}
+
+/* UNITED STATES */
+#united_states_bg{
+    background: linear-gradient(45deg,#76a8cb, #dbeefe, #76a8cb);
+}
+
+
+#united_states_image{
+    position:relative;
+    height:616px;
+    width:980px;
+}
+
+
+#united_states_div{
+    position:relative;
+    margin: auto auto 5px auto;
+    height:616px;
+    width:980px;
+    border-top:black 5px dotted;
+    border-bottom:black 5px dotted;
+}
+
+
+#alabama{
+    bottom:180px;
+    right:245px;
+}
+
+
+#arizona{
+    bottom:220px;
+    left:170px;
+}
+
+
+#arkansas{
+    bottom:225px;
+    right:390px;
+}
+
+
+#california{
+    bottom:320px;
+    left:30px;
+}
+
+
+#colorado{
+    top:265px;
+    left:325px;
+}
+
+
+#connecticut{
+    top:155px;
+    right:35px;
+}
+
+
+#deleware{
+    top:235px;
+    right:60px;
+}
+
+
+#florida{
+    
+    bottom:80px;
+    right:140px;
+}
+
+
+#georgia{
+    
+    bottom:175px;
+    right:180px;
+}
+
+
+#idaho{
+    
+    top:105px;
+    left:170px;
+}
+
+
+#illinois{
+    
+    top:235px;
+    right:350px;
+}
+
+
+#indiana{
+    
+    top:245px;
+    right:285px;
+}
+
+
+#iowa{
+    
+    top:205px;
+    right:415px;
+}
+
+
+#kansas{
+    
+    top:280px;
+    left:445px;
+}
+
+
+#kentucky{
+    
+    bottom:300px;
+    right:245px;
+}
+
+
+#lousiana{
+    
+    bottom:135px;
+    right:360px;
+}
+
+
+#maine{
+    
+    top:55px;
+    right:23px;
+}
+
+
+#maryland{
+    
+    top:245px;
+    right:115px;
+}
+
+
+#massachussets{
+    
+    top:130px;
+    right:15px;
+}
+
+
+#michigan{
+    
+    top:160px;
+    right:248px;
+}
+
+
+#minnesota{
+    
+    top:110px;
+    right:420px;
+}
+
+
+#mississipi{
+    
+    bottom:185px;
+    right:305px;
+}
+
+
+#missouri{
+    
+    top:280px;
+    right:400px;
+}
+
+
+#montana{
+    
+    top:85px;
+    left:265px;
+}
+
+
+#nebraska{
+    
+    top:220px;
+    left:430px;
+}
+
+
+#nevada{
+    
+    top:215px;
+    left:90px;
+}
+
+
+#new_hampshire{
+    
+    top:100px;
+    right:15px;
+}
+
+
+#new_jersey{
+    
+    top:210px;
+    right:50px;
+}
+
+
+#new_mexico{
+    
+    bottom:205px;
+    left:275px;
+}
+
+
+#new_york{
+    
+    top:165px;
+    right:110px;
+}
+
+
+#north_carolina{
+    
+    bottom:270px;
+    right:80px;
+}
+
+
+#north_dakota{
+    
+    top:100px;
+    left:380px;
+}
+
+
+#ohio{
+    
+    top:240px;
+    right:210px;
+}
+
+
+#oklahoma{
+    
+    bottom:250px;
+    left:450px;
+}
+
+
+#oregon{
+    
+    top:115px;
+    left:65px;
+}
+
+
+#pennsylvania{
+    
+    top:195px;
+    right:120px;
+}
+
+
+#rhode_island{
+    
+    top:145px;
+    right:15px;
+}
+
+
+#south_carolina{
+    
+    bottom:220px;
+    right:120px;
+}
+
+
+#south_dakota{
+    
+    top:160px;
+    left:380px;
+}
+
+
+#tennessee{
+    
+    bottom:255px;
+    right:250px;
+}
+
+
+#texas{
+    
+    bottom:150px;
+    left:430px;
+}
+
+
+#utah{
+    
+    top:240px;
+    left:220px;
+}
+
+
+#vermont{
+    
+    top:90px;
+    right:65px;
+}
+
+
+#virginia{
+    
+    top:293px;
+    right:120px;
+}
+
+
+#washington{
+    
+    top:50px;
+    left:65px;
+}
+
+
+#west_virginia{
+    
+    top:270px;
+    right:150px;
+}
+
+
+#wisconsin{
+    
+    top:155px;
+    right:350px;
+}
+
+
+#wyoming{
+    
+    top:150px;
+    left:250px;
+}

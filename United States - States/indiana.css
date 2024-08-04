@@ -1,0 +1,816 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html{
+    height:100%;
+}
+
+
+.text{
+    margin:auto;
+    font-family: 'Kanit', 'sans-serif';
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    color:white;
+}
+
+
+#header-footer{
+    position: sticky;
+    left: 50%;
+    width: 1px;
+    height: 70px;
+    transform: translateX(-50%);
+}
+
+
+#map{
+    top:0%;
+}
+
+
+#variant{
+    top:25px;
+}
+
+
+#return{
+    top:0%;
+    text-decoration-line: none;
+    background-color: white;
+    color:black;
+}
+
+
+#return:hover{
+    background-color:black;
+    color: white;
+}
+
+
+.place{
+    position:absolute;
+    z-index:3;
+    font-family: 'Kanit', 'sans-serif';
+}
+
+
+/* INDIANA */
+#indiana_bg{
+    background:linear-gradient(80deg,#dfd7bd,#88b58c,#2e512c,#c4d1ba,#dfd7bd);
+    /* background-color: #83b183; */
+}
+
+
+#indiana_image{
+    position:relative;
+    width:396px;
+    height:620px;
+}
+
+
+#indiana_div{
+    position:relative;
+    margin: auto auto 5px auto;
+    width:396px;
+    height:620px;
+    border-top: 5px black dotted;
+}
+
+
+#adams{
+    
+    right:1px;
+    top:140px;
+    
+}
+
+
+#allen{
+    
+    right:15px;
+    top:90px;
+    
+}
+
+
+#bartholomew{
+    
+    
+    right:90px;
+    bottom:210px;
+}
+
+
+#benton{
+    
+    
+    left:70px;
+    top:170px;
+}
+
+
+#blackford{
+    
+    
+    right:35px;
+    top:185px;
+}
+
+
+#boone{
+    
+    
+    left:160px;
+    top:255px;
+}
+
+
+#brown{
+    
+    
+    right:150px;
+    bottom:210px;
+}
+
+
+#carroll{
+    
+    
+    left:165px;
+    top:170px;
+}
+
+
+#cass{
+    
+    
+    left:185px;
+    top:140px;
+}
+
+
+#clark{
+    
+    
+    right:95px;
+    bottom:95px;
+}
+
+
+#clay{
+    
+    
+    left:110px;
+    bottom:240px;
+}
+
+
+#clinton{
+    
+    
+    left:168px;
+    top:215px;
+}
+
+
+#crawford{
+    
+    
+    left:170px;
+    bottom:70px;
+}
+
+
+#daviess{
+    
+    
+    left:100px;
+    bottom:125px;
+}
+
+
+#dearborn{
+    
+    
+    right:1px;
+    bottom:205px;
+}
+
+
+#decatur{
+    
+    
+    right:65px;
+    bottom:218px;
+}
+
+
+#dekalb{
+    
+    
+    right:5px;
+    top:45px;
+}
+
+
+#delaware{
+    
+    
+    right:40px;
+    top:225px;
+}
+
+
+#dubois{
+    
+    
+    left:120px;
+    bottom:80px;
+}
+
+
+#elkhart{
+    
+    
+    right:110px;
+    top:15px;
+}
+
+
+#fayette{
+    
+    
+    right:30px;
+    bottom:285px;
+}
+
+
+#floyd{
+    
+    
+    right:120px;
+    bottom:75px;
+}
+
+
+#fountain{
+    
+    
+    left:75px;
+    top:235px;
+}
+
+
+#franklin{
+    
+    
+    right:10px;
+    bottom:235px;
+}
+
+
+#fulton{
+    
+    
+    right:160px;
+    top:105px;
+}
+
+
+#gibson{
+    
+    
+    left:40px;
+    bottom:70px;
+}
+
+
+#grant{
+    
+    
+    right:90px;
+    top:180px;
+}
+
+
+#greene{
+    
+    
+    left:115px;
+    bottom:175px;
+}
+
+
+#hamilton{
+    
+    
+    right:130px;
+    top:245px;
+}
+
+
+#hancock{
+    
+    
+    right:100px;
+    top:290px;
+}
+
+
+#harrison{
+    
+    
+    right:130px;
+    bottom:50px;
+}
+
+
+#hendricks{
+    
+    
+    left:150px;
+    top:300px;
+}
+
+
+#henry{
+    
+    
+    right:55px;
+    top:275px;
+}
+
+
+#howard{
+    
+    
+    right:140px;
+    top:180px;
+}
+
+
+#huntington{
+    
+    
+    right:60px;
+    top:135px;
+}
+
+
+#jackson{
+    
+    
+    right:128px;
+    bottom:165px;
+}
+
+
+#jasper{
+    
+    
+    left:105px;
+    top:105px;
+}
+
+
+#jay{
+    
+    
+    right:15px;
+    top:190px;
+}
+
+
+#jefferson{
+    
+    
+    right:50px;
+    bottom:145px;
+}
+
+
+#jennings{
+    
+    
+    right:75px;
+    bottom:175px;
+}
+
+
+#johnson{
+    
+    
+    right:130px;
+    bottom:265px;
+}
+
+
+#knox{
+    
+    
+    left:65px;
+    bottom:122px;
+}
+
+
+#kosciusko{
+    
+    
+    right:100px;
+    top:65px;
+}
+
+
+#lagrange{
+    
+    
+    right:50px;
+    top:10px;
+}
+
+
+#lake{
+    
+    
+    left:70px;
+    top:50px;
+}
+
+
+#laporte{
+    
+    
+    left:145px;
+    top:30px;
+}
+
+
+#lawrence{
+    
+    
+    left:160px;
+    bottom:150px;
+}
+
+
+#madison{
+    
+    
+    right:80px;
+    top:230px;
+}
+
+
+#marion{
+    
+    
+    right:145px;
+    top:295px;
+}
+
+
+#marshall{
+    
+    
+    right:150px;
+    top:50px;
+}
+
+
+#martin{
+    
+    
+    left:135px;
+    bottom:125px;
+}
+
+
+#miami{
+    
+    
+    right:135px;
+    top:135px;
+}
+
+
+#monroe{
+    
+    
+    left:160px;
+    bottom:205px;
+}
+
+
+#montgomery{
+    
+    
+    left:110px;
+    top:250px;
+}
+
+
+#morgan{
+    
+    
+    left:170px;
+    bottom:255px;
+}
+
+
+#newton{
+    
+    
+    left:60px;
+    top:110px;
+}
+
+
+#noble{
+    
+    
+    right:65px;
+    top:45px;
+}
+
+
+#ohio{
+    
+    
+    right:10px;
+    bottom:170px;
+}
+
+
+#orange{
+    
+    
+    left:175px;
+    bottom:100px;
+}
+
+
+#owen{
+    
+    
+    left:130px;
+    bottom:225px;
+}
+
+
+#parke{
+    
+    
+    left:90px;
+    top:295px;
+}
+
+
+#perry{
+    
+    
+    left:155px;
+    bottom:40px;
+}
+
+
+#pike{
+    
+    
+    left:90px;
+    bottom:85px;
+}
+
+
+#porter{
+    
+    
+    left:105px;
+    top:45px;
+}
+
+
+#posey{
+    
+    
+    left:15px;
+    bottom:25px;
+}
+
+
+#pulaski{
+    
+    
+    left:145px;
+    top:100px;
+}
+
+
+#putnam{
+    
+    
+    left:115px;
+    bottom:285px;
+}
+
+
+#randolph{
+    
+    
+    right:1px;
+    top:240px;
+}
+
+
+#ripley{
+    
+    
+    right:40px;
+    bottom:195px;
+}
+
+
+#rush{
+    
+    
+    right:70px;
+    bottom:270px;
+}
+
+
+#st_joseph{
+    
+    
+    right:150px;
+    top:13px;
+}
+
+
+#scott{
+    
+    
+    right:100px;
+    bottom:130px;
+}
+
+
+#shelby{
+    
+    
+    right:90px;
+    bottom:260px;
+}
+
+
+#spencer{
+    
+    
+    left:100px;
+    bottom:30px;
+}
+
+
+#starke{
+    
+    
+    left:155px;
+    top:60px;
+}
+
+
+#steuben{
+    
+    
+    right:1px;
+    top:10px;
+}
+
+
+#sullivan{
+    
+    
+    left:55px;
+    bottom:185px;
+}
+
+
+#switzerland{
+    
+    
+    right:0px;
+    bottom:150px;
+}
+
+
+#tippecanoe{
+    
+    
+    left:110px;
+    top:190px;
+}
+
+
+#tipton{
+    
+    
+    right:138px;
+    top:205px;
+}
+
+
+#union{
+    
+    
+    right:1px;
+    bottom:275px;
+}
+
+
+#vanderburgh{
+    
+    
+    left:20px;
+    bottom:27px;
+}
+
+
+#vermillion{
+    
+    
+    left:40px;
+    top:275px;
+}
+
+
+#vigo{
+    
+    
+    left:70px;
+    bottom:255px;
+}
+
+
+#wabash{
+    
+    
+    right:100px;
+    top:125px;
+}
+
+
+
+#warren{
+    
+    
+    left:70px;
+    top:210px;
+}
+
+
+#warrick{
+    
+    
+    left:70px;
+    bottom:40px;
+}
+
+
+#washington{
+    
+    
+    right:120px;
+    bottom:120px;
+}
+
+
+#wayne{
+    
+    
+    right:5px;
+    top:280px;
+}
+
+
+#wells{
+    
+    
+    right:40px;
+    top:150px;
+}
+
+
+#white{
+    
+    
+    left:130px;
+    top:145px;
+}
+
+
+#whitley{
+    
+    
+    right:65px;
+    top:80px;
+}
